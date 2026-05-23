@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="card">
+    <div class="badge">Angular v21</div>
+    <h1>Hello from Docker!</h1>
+    <p class="subtitle">A minimal Angular app served via nginx in a Docker container.</p>
+
+    <div class="counter">
+      <button class="btn btn-secondary" (click)="decrement()" [disabled]="count === 0">-</button>
+      <span class="count">{{ count }}</span>
+      <button class="btn btn-primary" (click)="increment()">+</button>
+    </div>
+    <p class="counter-label">Click counter</p>
+  </div>
+</div>
