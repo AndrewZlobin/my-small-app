@@ -2,6 +2,8 @@
 
 A minimal Angular v21 single-page application featuring a click counter. Built with standalone components and served via nginx inside a Docker container.
 
+**Live app:** https://my-small-app.onrender.com
+
 ## Run
 
 ```bash
